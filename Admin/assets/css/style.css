@@ -1,0 +1,435 @@
+.row-divider {
+  margin: 0;
+  width: 100%;
+}
+
+#sidebar {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#1cc5df), to(#3f7de7));
+  background-image: linear-gradient(to left bottom, #1cc5df, #3f7de7);
+  /* For Fixed Bottom */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  /* Shadow */
+  -webkit-box-shadow: 5px 3px 6px #979797;
+          box-shadow: 5px 3px 6px #979797;
+}
+
+#sidebar .sidebar-logo {
+  display: none;
+}
+
+#sidebar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sidebar ul .nav-link {
+  color: #fff;
+}
+
+#sidebar ul .nav-link .nav-title {
+  display: none;
+}
+
+#content {
+  padding: 0;
+  margin-bottom: 100px;
+  /* NAVBAR TOP */
+  /* NAVBAR TOP END*/
+  /* DASHBOARD */
+  /* ---Cards*/
+  /*Resent posts*/
+  /* Profile Card */
+  /* Footer */
+  /* DASHBOARD END*/
+  /* NEW POST */
+  /* NEW POST END */
+  /* DISPLAY POSTS */
+  /* DISPLAY POSTS END */
+  /*ADMINS*/
+  /*ADMINS end*/
+  /*Profile Settings*/
+  /*Profile Settings End*/
+}
+
+#content nav {
+  background-color: #1cc5df;
+  -webkit-box-shadow: 5px 3px 6px #979797;
+          box-shadow: 5px 3px 6px #979797;
+  color: white;
+  width: 100%;
+}
+
+#content nav .navbar-brand {
+  color: white;
+}
+
+#content nav .profile {
+  position: relative;
+  min-width: 100px;
+}
+
+#content nav .profile .profile-name {
+  display: block;
+}
+
+#content nav .profile .profile-image {
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+  border-radius: 50%;
+}
+
+#content #admin-page-title {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+#content .row-card {
+  margin-bottom: 50px;
+}
+
+#content .row-card .report-card {
+  padding: 5px;
+}
+
+#content .row-card .report-card .card {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#0dcfec), to(#2e60b6));
+  background-image: linear-gradient(to left bottom, #0dcfec, #2e60b6);
+  height: 150px;
+  border: none;
+  border-radius: 20px;
+}
+
+#content .row-card .report-card .card .card-title {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+#content .row-card .report-card .card .number {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#content #recent-posts h3 {
+  text-align: center;
+}
+
+#content #recent-posts .row-recent {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: black 1px solid;
+}
+
+#content #recent-posts .row-recent .thumbnail {
+  width: 100%;
+  height: 70px;
+  background: #668081;
+  overflow: hidden;
+  position: relative;
+}
+
+#content #recent-posts .row-recent .thumbnail img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#content #recent-posts .row-recent #blog-title h4 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#content #recent-posts .row-recent #blog-author h5 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+#content .profile-card {
+  position: relative;
+  margin: 0 auto 10px auto;
+  height: 450px;
+  max-width: 350px;
+}
+
+#content .profile-card .card-background {
+  width: 100%;
+  min-height: 120px;
+  background: #0dcfec;
+}
+
+#content .profile-card .card-image {
+  position: relative;
+  background-color: #707677;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: -50px auto 10px auto;
+  overflow: hidden;
+}
+
+#content .profile-card .card-image img {
+  width: 100%;
+}
+
+#content .profile-card .card-name {
+  text-align: center;
+}
+
+#content .footer {
+  display: none;
+}
+
+#content .new-post .title,
+#content .new-post .upload,
+#content .new-post .editor {
+  margin-bottom: 10px;
+}
+
+#content .new-post .form-label h6 {
+  vertical-align: auto;
+}
+
+#content .new-post .side-buttons {
+  margin-bottom: 20px;
+}
+
+#content .new-post .side-buttons .draft-pub-buttons .status_publish {
+  margin: 10px;
+}
+
+#content .post-individual {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+#content .post-individual .thumbnail {
+  width: 100%;
+  height: 100px;
+  background-color: chocolate;
+  overflow: hidden;
+  position: relative;
+}
+
+#content .post-individual .thumbnail img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#content .post-individual .blog-info {
+  margin: 10px;
+}
+
+#content .post-individual .icons {
+  margin: 10px;
+  float: right;
+}
+
+#content .post-individual .icons .btn-view {
+  color: #3e59f0;
+}
+
+#content .post-individual .icons .btn-delete {
+  color: #df1616;
+}
+
+#content .post-individual .icons .btn-edit {
+  color: #26a030;
+}
+
+#content .post-individual .icons .btn-public {
+  color: blue;
+}
+
+#content .post-individual .icons .btn-draft {
+  color: lightcoral;
+}
+
+#content .admins .profile-pic {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ca8a3b;
+  margin: auto;
+}
+
+#content .admins .profile-pic img {
+  width: inherit;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#content .admins .admin {
+  background-color: #85d139;
+  font-weight: bold;
+}
+
+#content .admins .member {
+  background-color: lightcoral;
+  color: white;
+}
+
+#content .profile-settings .picture {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: 10px auto;
+}
+
+#content .profile-settings .picture img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#content .profile-settings .details {
+  max-width: 300px;
+  display: block;
+  margin: auto auto 20px auto;
+}
+
+#content .profile-settings .details .head {
+  font-weight: bold;
+  width: 150px;
+}
+
+#content .profile-settings .details td {
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+#content .profile-settings .details .edit {
+  width: 100%;
+  margin: auto;
+}
+
+/* -----Mobile View----- */
+@media only screen and (min-width: 768px) {
+  .row-divider {
+    min-height: 100vh;
+  }
+  #sidebar {
+    position: relative;
+  }
+  #sidebar ul.nav {
+    width: inherit;
+    padding: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    top: 0;
+  }
+  #sidebar ul.nav .sidebar-logo {
+    position: relative;
+    display: block !important;
+    max-width: 150px;
+    width: 100%;
+    margin: 15px auto 100px auto;
+  }
+  #sidebar ul.nav .sidebar-logo #feather {
+    position: absolute;
+    color: #fff;
+    font-family: vivaldi;
+    font-size: 40px;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotateZ(-20deg);
+            transform: rotateZ(-20deg);
+  }
+  #sidebar ul.nav a.nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #sidebar ul.nav a.nav-link .nav-icon {
+    width: 50px;
+  }
+  #sidebar ul.nav a.nav-link .nav-title {
+    display: block !important;
+  }
+  #content {
+    margin-bottom: 0px;
+    /* DASHBOARD */
+    /* DASHBOARD END*/
+    /* DISPLAY POSTS */
+    /* DISPLAY POSTS END */
+  }
+  #content .footer {
+    display: block !important;
+    bottom: 0;
+    width: 100%;
+    background-color: #3f7de7;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  #content .footer p {
+    color: #fff;
+    margin: 0;
+  }
+  #content .post-individual .thumbnail {
+    width: 80%;
+    height: 100px;
+    background-color: chocolate;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+  }
+  #content .post-individual .blog-info {
+    margin-left: -10px;
+  }
+  #content .post-individual .icons .btn-view,
+  #content .post-individual .icons .btn-delete,
+  #content .post-individual .icons .btn-edit,
+  #content .post-individual .icons .btn-public,
+  #content .post-individual .icons .btn-draft {
+    color: #1f1e1e;
+  }
+  #content .post-individual .icons .btn-view:hover {
+    color: #3e59f0;
+  }
+  #content .post-individual .icons .btn-delete:hover {
+    color: #df1616;
+  }
+  #content .post-individual .icons .btn-edit:hover {
+    color: #26a030;
+  }
+  #content .post-individual .icons .btn-public:hover {
+    color: blue;
+  }
+  #content .post-individual .icons .btn-draft:hover {
+    color: lightcoral;
+  }
+}
+/*# sourceMappingURL=style.css.map */

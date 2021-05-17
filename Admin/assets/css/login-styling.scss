@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, #1cc5df, #3f7de7);
+
+  form {
+    max-width: 330px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      width: 200px;
+    }
+
+    input[type="username"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-top: 50px;
+    }
+
+    input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      margin-bottom: 30px;
+    }
+
+    .btn-signin {
+      font-weight: 500;
+      color: white;
+      border: white 1px solid;
+      border-radius: 50px;
+    }
+
+    .btn-signin:hover {
+      background-color: rgba(255, 255, 255, 0.486);
+      color: white;
+    }
+  }
+}

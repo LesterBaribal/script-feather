@@ -1,0 +1,363 @@
+$primary: #345f6a;
+$secondary: #dad6d1;
+$card-background: #557c87;
+$footer-color: #112a2e;
+
+@font-face {
+  font-family: Segoesc;
+  src: url("../font/segoesc.ttf");
+}
+
+html {
+  background-color: $secondary;
+
+  .section-header {
+    font-family: Segoesc;
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+section.hero {
+  font-family: Segoesc;
+  position: relative;
+  height: 210px;
+  color: #fff;
+
+  nav {
+    position: absolute;
+    width: 100%;
+    background-color: $primary;
+
+    .navbar-brand {
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  .header {
+    position: relative;
+    height: inherit;
+
+    .tagline {
+      position: absolute;
+      z-index: 2;
+      text-align: center;
+      font-size: 15px;
+
+      bottom: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .banner {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+  }
+}
+
+section.about {
+  background-color: $secondary;
+  padding-bottom: 30px;
+
+  .about-section {
+    position: relative;
+
+    .about-logo {
+      width: 50%;
+
+      margin: auto auto 30px auto;
+    }
+  }
+}
+
+section.posts {
+  background-color: #345f6a;
+  color: #fff;
+  position: relative;
+
+  .card {
+    background-color: $card-background;
+    margin-bottom: 20px;
+
+    .thumbnail {
+      height: 150px;
+      width: 85%;
+      max-width: 300px;
+      background-color: $footer-color;
+      margin: 20px auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+
+      img {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .post-title {
+      font-family: Segoesc;
+    }
+
+    .excerpt {
+      padding: 0px 30px;
+      height: 100px;
+      overflow: hidden;
+    }
+
+    .btn {
+      color: #fff;
+      border: $footer-color 1px solid;
+
+      width: 30%;
+      margin: 20px auto;
+    }
+  }
+
+  .btn {
+    font-family: Segoesc;
+    border: $footer-color 1px solid;
+    color: #fff;
+    margin: 20px auto;
+  }
+}
+
+section.contact {
+  background-color: $secondary;
+  padding-bottom: 30px;
+
+  .submit-sm-hide {
+    display: none;
+  }
+
+  .submit {
+    padding: 10px 0px;
+    width: 100%;
+
+    .btn {
+      background-color: $footer-color;
+      color: #fff;
+      font-family: Segoesc;
+      float: right;
+    }
+  }
+}
+
+section.footer {
+  font-family: Segoesc;
+  background-color: $footer-color;
+  color: #fff;
+  padding: 20px;
+
+  .signup {
+    margin-bottom: 30px;
+    a {
+      background-color: #fff;
+    }
+  }
+
+  .nav {
+    margin-bottom: 20px;
+
+    .nav-link {
+      color: #fff;
+    }
+  }
+}
+
+/*Archive*/
+section.archives {
+  font-family: Segoesc;
+
+  nav {
+    background-color: $primary;
+    width: 100%;
+
+    .navbar-brand {
+      img {
+        width: 50px;
+      }
+    }
+  }
+}
+
+article.list-posts {
+  min-height: 90vh;
+  background-color: $secondary;
+
+  .card {
+    background-color: $primary;
+    margin-bottom: 20px;
+    border: none;
+
+    .thumbnail {
+      height: 150px;
+      width: 85%;
+      max-width: 300px;
+      background-color: $card-background;
+      margin: 20px auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+
+      img {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .post-title {
+      color: #fff;
+      font-family: Segoesc;
+    }
+
+    .post-author {
+      color: #fff;
+    }
+
+    .excerpt {
+      color: #fff;
+      padding: 0px 30px;
+      height: 100px;
+      overflow: hidden;
+    }
+
+    .btn {
+      color: #fff;
+      border: #fff 1px solid;
+
+      width: 30%;
+      margin: 20px auto;
+    }
+  }
+}
+
+/*Single Post*/
+article.single-post {
+  min-height: 90vh;
+  background-color: $secondary;
+  padding: 10px;
+
+  img.blog-image {
+    display: block;
+    max-height: 300px;
+    padding: 30px;
+    margin: auto;
+  }
+
+  .story-body {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .add-comment {
+    .form-submit {
+      height: 50px;
+
+      .btn {
+        float: right;
+      }
+    }
+  }
+
+  .comments {
+    .card-comment {
+      background-color: #cac9c7;
+      padding: 20px;
+      margin: 15px 0px;
+      border-radius: 20px;
+
+      p {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+/* Register */
+article.register {
+  min-height: 100vh;
+  height: 90%;
+  background-color: $secondary;
+
+  .form {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+  }
+}
+/*web view*/
+@media only screen and (min-width: 900px) {
+  section.hero {
+    nav {
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+    .header {
+      position: relative;
+      height: inherit;
+
+      .tagline {
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        font-size: 15px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  section.hero {
+    height: 600px;
+
+    .header {
+      height: inherit;
+
+      .tagline {
+        text-align: left;
+        font-size: 40px;
+
+        left: 0%;
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  section.about {
+    .about-row {
+      flex-direction: row-reverse;
+
+      .about-logo {
+        width: 50%;
+      }
+
+      .about-text {
+        font-size: 20px;
+      }
+    }
+  }
+
+  section.contact {
+    .submit-sm-hide {
+      display: block;
+    }
+
+    .submit-lg-hide {
+      display: none;
+    }
+  }
+}

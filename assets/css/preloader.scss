@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.preloader {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  position: relative;
+}
+
+#T-feather,
+#P-feather,
+#I-feather,
+#R-feather,
+#C-feather,
+#S-feather {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#S-feather {
+  animation: S 5s infinite linear;
+}
+
+#C-feather {
+  animation: C 5s infinite linear;
+}
+
+#R-feather {
+  animation: R 5s infinite linear;
+}
+
+#I-feather {
+  animation: I 5s infinite linear;
+}
+
+#P-feather {
+  animation: P 5s infinite linear;
+}
+
+#T-feather {
+  animation: T 5s infinite linear;
+}
+
+@keyframes S {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  0% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  9% {
+    transform: scale(1) rotateZ(1080deg);
+  }
+  50% {
+    transform: scale(1) rotateZ(1080deg);
+  }
+  59% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  to {
+    transform: scale(0) rotateZ(0deg);
+  }
+}
+@keyframes C {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  9% {
+    transform: scale(0);
+  }
+  17% {
+    transform: scale(1) rotate(1080deg);
+  }
+  59% {
+    transform: scale(1) rotate(1080deg);
+  }
+  67% {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes R {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  17% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  25% {
+    transform: scale(1) rotate(1080deg);
+  }
+  67% {
+    transform: scale(1) rotate(1080deg);
+  }
+  75% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  to {
+    transform: scale(0) rotateZ(0deg);
+  }
+}
+
+@keyframes I {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  25% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  34% {
+    transform: scale(1) rotate(1080deg);
+  }
+  75% {
+    transform: scale(1) rotate(1080deg);
+  }
+  84% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  to {
+    transform: scale(0) rotateZ(0deg);
+  }
+}
+
+@keyframes P {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  34% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  42% {
+    transform: scale(1) rotate(1080deg);
+  }
+  84% {
+    transform: scale(1) rotate(1080deg);
+  }
+  92% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  to {
+    transform: scale(0) rotateZ(0deg);
+  }
+}
+
+@keyframes T {
+  from {
+    transform: scale(0) rotateZ(0deg);
+  }
+  42% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  50% {
+    transform: scale(1) rotate(1080deg);
+  }
+  92% {
+    transform: scale(1) rotate(1080deg);
+  }
+  100% {
+    transform: scale(0) rotateZ(0deg);
+  }
+  to {
+    transform: scale(0) rotateZ(0deg);
+  }
+}

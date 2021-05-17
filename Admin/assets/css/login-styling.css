@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#1cc5df), to(#3f7de7));
+  background-image: linear-gradient(to left bottom, #1cc5df, #3f7de7);
+}
+
+body form {
+  max-width: 330px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body form img {
+  width: 200px;
+}
+
+body form input[type="username"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 50px;
+}
+
+body form input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 30px;
+}
+
+body form .btn-signin {
+  font-weight: 500;
+  color: white;
+  border: white 1px solid;
+  border-radius: 50px;
+}
+
+body form .btn-signin:hover {
+  background-color: rgba(255, 255, 255, 0.486);
+  color: white;
+}
+/*# sourceMappingURL=login-styling.css.map */
